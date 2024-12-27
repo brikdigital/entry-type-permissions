@@ -1,0 +1,46 @@
+{
+    "name": "brikdigital/entry-type-permissions",
+    "description": "Configure permissions per entry type, allowing only certain users to create specific entry types.",
+    "type": "craft-plugin",
+    "version": "5.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin"
+    ],
+    "support": {
+        "issues": "https://github.com/brikdigital/entry-type-permissions/issues?state=open",
+        "source": "https://github.com/brikdigital/entry-type-permissions",
+        "rss": "https://github.com/brikdigital/entry-type-permissions/commits/v2.atom"
+    },
+    "license": "MPL-2.0",
+    "authors": [
+        {
+            "name": "Brik.digital",
+            "homepage": "https://brik.digital"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "craftcms/cms": "^5.0.0",
+        "verbb/navigation": "^3.0.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "brikdigital\\entrytypepermissions\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Entry Type Permissions",
+        "handle": "entry-type-permissions",
+        "developer": "Brik.digital",
+        "class": "brikdigital\\entrytypepermissions\\EntryTypePermissions"
+    },
+    "config": {
+        "allow-plugins": {
+            "craftcms/plugin-installer": true,
+            "yiisoft/yii2-composer": true
+        }
+    }
+}
