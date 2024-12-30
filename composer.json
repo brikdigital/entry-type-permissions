@@ -2,7 +2,7 @@
     "name": "brikdigital/entry-type-permissions",
     "description": "Configure permissions per entry type, allowing only certain users to create specific entry types.",
     "type": "craft-plugin",
-    "version": "5.0.0",
+    "version": "5.0.1",
     "keywords": [
         "craft",
         "cms",
